@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameProject
 {
-    interface IUserValidationService
+    interface IUserValidationService //kullanıcı doğrulama servisi
     {
         bool Validate(Gamer gamer);
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameProject
 {
-    class Gamer
+    public class Gamer : IEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

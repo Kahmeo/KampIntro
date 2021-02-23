@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameProject
 {
-    class OrderManager
+    public interface IEntity
     {
     }
 }
